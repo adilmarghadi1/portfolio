@@ -7,8 +7,8 @@ body {
 
 /***FOOTER ATTRIBUTES***/
 footer {
-  color: #FFFFFF;
-  background-color: #686FBF;
+  color: #000000;
+  background-color: #DEDBD2;
   font-size: 12px;
   width: 100%;
   padding-top: 5px;
@@ -27,7 +27,7 @@ footer {
 
 /***SECTIONS***/
 #textbox{
-	background-color: #F3ECFF;
+	background-color: #FFFFFF;
   border-radius: 5px;
 	width: 100%;
 	margin: 0 auto;
@@ -56,32 +56,33 @@ footer {
 
 /***CUSTOM NAVBAR SETTINGS***/
 .navbar-mycolour {
-  background-color: #454A7F;
-  color: #FFFFFF;
+  background-color: #DEDBD2;
+  color: #000000;
   border-radius: 0;
 }
 
 .navbar-mycolour .navbar-nav > li > a {
-  color: #FFFFFF;
+  color: #000000;
   font-size: 14px;
   font-family: 'Cormorant Garamond', serif;
 }
 
 .navbar-mycolour .navbar-nav > li > a:hover {
-  background-color: #232540;
+  background-color: #6E7272;
   color: #FFFFFF;
 }
 
 .navbar-mycolour .navbar-brand {
-  background-color: #454A7F;
-  color: #FFFFFF;
+  background-color: #DEDBD2;
+  color: #000000;
   font-family: 'Cormorant Garamond', serif;
   font-size: 20px;
   font-weight: bold;
 }
 
-.navbar-mycolour .navbar-nav > li > a.branding:hover {
-  background-color: #454A7F;
+.navbar-mycolour .navbar-brand:hover {
+  background-color: #6E7272;
+  color: #FFFFFF;
 }
 
 .navbar-mycolour .navbar-toggle .icon-bar {
@@ -92,4 +93,8 @@ footer {
 /***SOCIAL BUTTONS DIV***/
 #social a {
   color: black;
+}
+
+#social a:hover {
+  color: #6E7272;
 }

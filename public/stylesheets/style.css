@@ -25,6 +25,7 @@ footer {
   font-family: 'Cormorant Garamond', serif;
   font-size: 20px;
 }
+/***END MAIN CONTAINER***/
 
 /***SECTIONS***/
 #textbox{
@@ -95,6 +96,7 @@ footer {
 #social a:hover {
   color: #6E7272;
 }
+/***END OF SOCIAL BUTTONS***/
 
 /***IMAGES***/
 .headshot {
@@ -102,3 +104,4 @@ footer {
   margin: auto;
 	border-radius: 10px;
 }
+/***END OF IMAGES***/
